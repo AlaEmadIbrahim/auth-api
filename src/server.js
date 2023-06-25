@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 
-let port = process.env.PORT;
+let port = process.env.PORT || 3000;
 const notFoundHandler = require("./error-handlers/404");
 const internalErrorHandler = require("./error-handlers/500");
 const logger = require("./middleware/logger");
