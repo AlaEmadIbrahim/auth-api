@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NOD_ENV=production node index.js",
     "test": "NODE_ENV=test jest --coverage",
-    "dev": "NOD_ENV=development nodemon index.js",
+    "dev": "NODE_ENV=development nodmon index.js",
+    "start": "NODE_ENV=production node index.js",
     "init:config": "sequelize init:config",
     "db:create": "sequelize db:create",
     "test:watch": "NODE_ENV=test jest --watchAll"
