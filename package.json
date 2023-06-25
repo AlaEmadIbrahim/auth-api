@@ -11,6 +11,7 @@
     "db:create": "sequelize db:create",
     "test:watch": "NODE_ENV=test jest --watchAll"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
