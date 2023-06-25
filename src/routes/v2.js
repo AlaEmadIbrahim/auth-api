@@ -18,7 +18,7 @@ const {
   handleSignin,
   handleGetUsers,
   handleSecret,
-} = require("./routes-functions");
+} = require("./v1");
 
 router.get("/", homePage);
 router.post("/signup", handleSignup);
