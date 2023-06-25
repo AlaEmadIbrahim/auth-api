@@ -1,20 +1,24 @@
 {
-  "name": "api-client",
+  "name": "api-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test jest --coverage",
     "dev": "NODE_ENV=development nodmon index.js",
-    "start": "NODE_ENV=production node index.js",
-    "init:config": "sequelize init:config",
-    "db:create": "sequelize db:create",
-    "test:watch": "NODE_ENV=test jest --watchAll"
+    "start": "NODE_ENV=production node index.js"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlaEmadIbrahim/api-server.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlaEmadIbrahim/api-server/issues"
+  },
+  "homepage": "https://github.com/AlaEmadIbrahim/api-server#readme",
   "dependencies": {
     "eslint": "^7.14.0",
     "method-override": "^3.0.0",
